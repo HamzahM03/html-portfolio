@@ -3,63 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/main.css">
   <title>My Resume</title>
 </head>
 <body>
-  <h1>Hamzah Marie's Resume</h1>
-  <img src="./assets/images/profile.png" height="300"/>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Hamzah Marie's Portfolio</span>
+      </a>
 
-  <h2>Summary</h2>
-  <p>Computer Science Major with C++, HTML, and CSS skills with two plus years of expertise in customer service. Organized and
-    dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added
-    responsibilities to meet team goals. Hardworking and passionate job seeker with strong organizational skills eager to secure in
-    the Stem & Green position. Ready to help team achieve company goals.</p>
-  <br>
-  <h2>Education</h2>
-  <hr/>
-  <p><strong>BACHELOR OF SCIENCE IN COMPUTER SCIENCE CANDIDATE</strong></p>
-  <p>College of Staten Island</p>
-  <p><i>Expected graduation Dec 2025</i></p>
-  <br>
-  <h2>Work Experience</h2>
-  <hr/>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#about" class="nav-link active">About</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+  </div>
 
-  <p><strong>CASHIER/CUSTOMER SERVICE</strong></p>
-  <p><i>Brook, January 2021 - January 2022</i></p>
-  <p>The Food Emporium</p>
-  <ul>
-    <li>Resolved customer complaints and maintained clean and tidy checkout area</li>
-    <li>Enabled customers to feel welcomed, important and appreciated by answering questions about products sold
-      throughout store</li>
-    <li>Handled approximately daily credit and cash transactions for customers with accuracy and speed</li>
-    <li>Completed le maintenance log for price discrepancies</li>
-    <li>Used POS system to enter orders, process payments and issue receipts</li>
-  </ul>
-  <br>
 
-  <h2>Skills</h2>
-  <hr/>
-  <ul>
-    <li>C++</li>
-    <li>HTML/CSS</li>
-    <li>JavaScript</li>
-    <li>DS & Algorithms</li>
-    <li>NodeJS</li>
-    <li>MongoDB | Mongoose</li>
-    <li>Customer Service</li>
-    <li>Team Work</li>
-    <li>Time Management</li>
-  </ul>
-  <br/>
+ 
+ 
+  <div id="socials-container">
+    <div>
+      <img src="assets/images/profile.png" alt="profile-picture" class="profile-img">
+    </div>
+    <div id="socials-text">
+      <p>Hello, I'm</p>
+      <h2>Hamzah Marie</h2>
+      <h3>Full-Stack Developer</h3>
+      <div class="socials-buttons">
+      <button id="download-cv-btn" class="btn btn-secondary">Download CV</button>
+      <button id="contact-info-btn" class="btn btn-dark">Contact Info</button>
+    </div>
+    <div class="socials-buttons">
+      <a href="https://www.linkedin.com/in/hamzah-marie-4270621b5/" target="_blank"><img src="assets/images/linkedin.png"  alt="linkedin-icon" ></a>
+      <a href="https://github.com/HamzahM03" target="_blank"><img src="assets/images/github.png" alt="github-icon"></a>
+    </div>
+    </div>
+  </div>
 
-  <hr/>
-  <h2>Other</h2>
-  <ul>
-    <li><a href="./public/contact.html">Contact</a></li>
-    <li><a href="./public/hobbies.html">Hobbies</a></li>
-  </ul>
 
-  <footer>&copy Hamzah Marie. All rights reserved.</footer>
 
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
 </html>
