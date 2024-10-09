@@ -12,7 +12,40 @@ body{
   scroll-behavior: smooth;
 }
 
+/*Intro Section*/
 
+#home-section{
+  margin-top:50px;
+}
+
+#about{
+  margin-top:100px;
+}
+
+#text-logo{
+  cursor: default;
+
+}
+
+
+
+.nav .nav-link:hover{
+  color:grey !important;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+/* Remove hover effect from the logo's anchor tag */
+.container #text-logo a:hover {
+  color: inherit !important; /* Ensure it keeps the original color */
+  text-decoration: none !important; /* No underline on hover */
+}
+
+
+#text-logo:hover {
+  color: inherit !important; /* Keep the color the same on hover */
+  text-decoration: none !important; /* Prevent underline */
+}
 
 
 /*SOCIALS CONTAINER */
@@ -22,9 +55,9 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top:100px;
 
 }
-
 
 
 .profile-img {
@@ -56,13 +89,41 @@ body{
   margin-top:10px;
 }
 
-#contact-info-btn{
-  
-}
+
 
 .socials-buttons img{
   width:50px;
   height:50px;
 
   
+}
+
+/*ABOUT PAGE*/
+
+#about-paragraph{
+  color:black
+}
+
+#about-img{
+  border:10px solid black;
+}
+
+
+
+/* EXPERIENCE SECTION STYLES */
+#experience {
+  margin-top: 100px;
+}
+
+.experience-item {
+  margin-bottom: 30px; /* Space between experience items */
+}
+
+.experience-item h4 {
+  font-size: 1.5rem; /* Adjust the size as needed */
+  margin-bottom: 5px;
+}
+
+.experience-item p {
+  margin-bottom: 5px; /* Space below paragraphs */
 }
